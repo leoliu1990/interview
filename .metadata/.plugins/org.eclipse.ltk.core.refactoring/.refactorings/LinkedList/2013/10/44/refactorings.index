@@ -1,0 +1,5 @@
+1382908439313	Encapsulate field 'data'
+1382908447499	Encapsulate field 'next'
+1382908914544	Encapsulate field 'size'
+1382991389272	Rename local variable 'del'
+1382997523435	Rename type 'CircularList'

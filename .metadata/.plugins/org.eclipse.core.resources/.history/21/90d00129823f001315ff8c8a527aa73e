@@ -1,0 +1,29 @@
+package edu.rice.sorts;
+
+import java.util.ArrayList;
+
+public class RadixSort {
+	public static void radixSort (int[] arr) {
+		ArrayList<ArrayList<Integer>> buckets = new ArrayList<ArrayList<Integer>>();
+		ArrayList<ArrayList<Integer>> nextBuckets = new ArrayList<ArrayList<Integer>> ();
+		
+		int cur = 1;
+		
+		for (int i = 0; i < 10; ++ i) {
+			buckets.add(new ArrayList<Integer>());
+		}
+		
+		firstBucket(buckets, arr);
+		
+		boolean allZero = false;
+		while (true) {
+			
+		}
+	}
+	
+	private static void firstBucket (ArrayList<ArrayList<Integer>> buckets, int[] arr) {
+		for (int i : arr) {
+			buckets.get(i%10).add(i);
+		}
+	}
+}

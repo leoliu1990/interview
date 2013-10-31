@@ -1,0 +1,13 @@
+package edu.rice.stacksort;
+
+import java.util.Stack;
+
+public class StackSort<E> {
+	public static void main(String s[]){
+		
+	}
+	
+	private Stack<E> sortstack(Stack<E> s){
+		Stack<E> r = new Stack<E>();
+	}
+}

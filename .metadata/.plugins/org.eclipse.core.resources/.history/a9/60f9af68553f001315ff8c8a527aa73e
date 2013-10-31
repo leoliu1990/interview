@@ -1,0 +1,16 @@
+package edu.rice.linkedlist;
+
+public class ListGenerater {
+	private int size;
+	private String data;
+	
+	public ListGenerater(int size){
+		this.size = size;
+		this.data = null;
+	}
+	
+	public ListGenerater(String data){
+		this.data = data;
+		this.size = data.length();
+	}
+}

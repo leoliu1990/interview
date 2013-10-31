@@ -1,0 +1,19 @@
+package edu.rice.stacksort;
+
+import java.util.Stack;
+
+public class StackSort<E> {
+	public static void main(String s[]){
+		
+	}
+	
+	private Stack<Comparable<E>> sortstack(Stack<E> s){
+		Stack<Comparable<E>> r = new Stack<E>();
+		while(!s.empty()){
+			E tmp = s.pop();
+			while(!r.empty() && r.peek() < tmp){
+				
+			}
+		}
+	}
+}

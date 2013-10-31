@@ -1,0 +1,27 @@
+package edu.rice.lca;
+
+import java.util.Stack;
+
+import edu.rice.tree.BinaryTree;
+import edu.rice.tree.Node;
+
+public class LCAFinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Node findLCA(BinaryTree tree, Node n1, Node n2){
+		Node root = tree.getRoot();
+		Stack<Node> stack = new Stack<Node>();
+	}
+	
+	private boolean findNode(Node root, Node target){
+		if(root == null)
+			return false;
+		if(root.getData() == target.getData())
+			return true;
+		return findNode(root.getLeft(), target) || findNode(root.getRight(), target);
+	}
+}

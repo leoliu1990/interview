@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.rice.uniqueChar.UniqueChar"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="edu.rice.permutation.IsPermutation"/>
+<fullyQualifiedTypeName name="edu.rice.replspace.ReplSpace"/>
+<fullyQualifiedTypeName name="edu.rice.stringcompress.StringCompress"/>
+<fullyQualifiedTypeName name="edu.rice.rotation.Rotation"/>
+<fullyQualifiedTypeName name="edu.rice.substring.IsSubstring"/>
+<fullyQualifiedTypeName name="edu.rice.rotation.IsRotation"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="edu.rice.duplicates.RemoveDupls"/>
+<fullyQualifiedTypeName name="edu.rice.deletemid.DeleteMid"/>
+<fullyQualifiedTypeName name="edu.rice.circular.CircularHead"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.EmptyStackException"/>
+<fullyQualifiedTypeName name="edu.rice.stack.SetOfStacks"/>
+<fullyQualifiedTypeName name="edu.rice.hanoi.Tower"/>
+<fullyQualifiedTypeName name="edu.rice.myqueue.MyQueue"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="edu.rice.stacksort.StackSort"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="edu.rice.linkedlist.Node"/>
+<fullyQualifiedTypeName name="edu.rice.linkedlist.ListGenerater"/>
+<fullyQualifiedTypeName name="edu.rice.linkedlist.LinkedList"/>
+<fullyQualifiedTypeName name="edu.rice.palindrome.Palindrome"/>
+</qualifiedTypeNameHistroy>

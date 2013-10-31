@@ -1,0 +1,9 @@
+package edu.rice.tree;
+
+public class BinaryTree {
+	private Node root;
+	
+	public BinaryTree(){
+		this.root = null;
+	}
+}

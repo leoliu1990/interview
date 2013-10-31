@@ -1,0 +1,30 @@
+package edu.rice.stack;
+
+import java.util.ArrayList;
+
+public class SetOfStacks<E> {
+	private int singlesize;
+	private ArrayList<E[]> list;
+	private int loc_pop;
+	private int loc_push;
+	private int offset_pop;
+	private int offset_push;
+	
+	public SetOfStacks(int singlesize){
+		this.singlesize = singlesize;
+		initialize();
+	}
+	
+	private void initialize(){
+		list.add((E[]) new Object[singlesize]);
+		this.list = new ArrayList<E[]>();
+		this.loc_pop  = 0;
+		this.loc_push = 0;
+		this.offset_pop  = 0;
+		this.offset_push = 0;
+	}
+	
+	public E push(E item){
+		list[1];
+	}
+}

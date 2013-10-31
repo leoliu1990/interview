@@ -1,0 +1,11 @@
+package edu.rice.hanoi;
+
+import java.util.Stack;
+
+public class Tower {
+	private Stack<Integer> disks;
+	
+	public Tower(){
+		disks = new Stack<Integer>();
+	}
+}

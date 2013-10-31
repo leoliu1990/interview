@@ -1,0 +1,9 @@
+package edu.rice.hanoi;
+
+public class Hanoi {
+	public static void main(String s[]){
+		Tower original = new Tower();
+		Tower buffer   = new Tower();
+		Tower dest	   = new Tower();
+	}
+}

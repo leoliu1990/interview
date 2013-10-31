@@ -1,0 +1,20 @@
+package edu.rice.lca;
+
+import edu.rice.tree.BinaryTree;
+import edu.rice.tree.Node;
+
+public class LCAFinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Node findLCA(BinaryTree tree, Node n1, Node n2){
+		
+	}
+	
+	private boolean findNode(Node root, Node target){
+		
+	}
+}

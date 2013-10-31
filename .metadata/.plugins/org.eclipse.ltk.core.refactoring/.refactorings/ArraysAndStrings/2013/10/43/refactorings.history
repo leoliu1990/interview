@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;uniqueChar&apos; to &apos;edu.rice.uniqueChar&apos;&#x0A;- Original project: &apos;ArraysAndStrings&apos;&#x0A;- Original element: &apos;ArraysAndStrings/src/uniqueChar&apos;&#x0A;- Renamed element: &apos;ArraysAndStrings/src/edu.rice.uniqueChar&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;uniqueChar&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;uniqueChar" name="edu.rice.uniqueChar" qualified="false" references="true" stamp="1382822653770" textual="false" version="1.0"/>
+</session>

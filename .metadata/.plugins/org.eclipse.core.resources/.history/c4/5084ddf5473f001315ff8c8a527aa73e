@@ -1,0 +1,18 @@
+package edu.rice.rotation;
+
+import edu.rice.substring.*;
+
+public class IsRotation {
+	public static void main(String s[]){
+		
+	}
+	
+	private boolean isRotation(String s, String t){
+		String tt = t+t;
+		IsSubstring is = new IsSubstring();
+		if(is.isSubstring(tt, s))
+			return true;
+		else
+			return false;
+	}
+}

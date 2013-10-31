@@ -1,0 +1,13 @@
+package edu.rice.rotation;
+
+import edu.rice.substring.*;
+
+public class IsRotation {
+	public static void main(String s[]){
+		
+	}
+	
+	private boolean isRotation(String s, String t){
+		
+	}
+}

@@ -1,0 +1,21 @@
+package edu.rice.linkedlist;
+
+import edu.rice.linkedlist.Node;
+
+public class LinkedList {
+	private Node head = null;
+	private int size;
+	
+	public LinkedList(){this.size = 0;}
+
+	public int getSize() {
+		return size;
+	}
+	
+	public void appendToTail(int data){
+		Node tmp = head;
+		while(tmp.getNext() != null)
+			tmp = tmp.getNext();
+		tmp.setNext(new Node(data));
+	}
+}

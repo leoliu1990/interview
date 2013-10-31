@@ -1,0 +1,19 @@
+package edu.rice.duplicates;
+
+import java.util.HashSet;
+
+import edu.rice.linkedlist.*;
+
+public class RemoveDupls {
+	public static void main(String s[]){
+		
+	}
+	private void removeDupls(LinkedList list){
+		HashSet<Integer> set = new HashSet<Integer>();
+		Node head = list.getHead();
+		Node prev = null;
+		while(head != null){
+			
+		}
+	}
+}

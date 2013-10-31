@@ -1,0 +1,31 @@
+package edu.rice.palindrome;
+
+import edu.rice.linkedlist.LinkedList;
+import edu.rice.linkedlist.Node;
+
+public class Palindrome {
+	
+	private Node head;
+
+	private boolean isPalindrome(Node cur){
+		boolean prev = true;
+		
+		if(cur.getNext() != null){
+			prev = isPalindrome(cur.getNext());
+		}
+		if(!prev)
+			return false;
+		else
+			prev = head.equals(cur);
+		
+	}
+
+	public Palindrome(LinkedList list){
+		head = list.getHead();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}

@@ -1,0 +1,7 @@
+1383172824452	Encapsulate field 'data'
+1383172832551	Encapsulate field 'left'
+1383172838789	Encapsulate field 'right'
+1383172925317	Rename type 'BST'
+1383172999564	Encapsulate field 'root'
+1383192951812	Rename local variable 'bfs'
+1383231198732	Rename type 'LCA'
