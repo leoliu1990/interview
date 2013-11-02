@@ -1,0 +1,32 @@
+package edu.rice.subtree;
+
+import edu.rice.tree.BinaryTree;
+import edu.rice.tree.Node;
+
+public class SubtreeChecker {
+	public static void main(String s[]){
+		
+	}
+	
+	public boolean isSubtree(BinaryTree big, BinaryTree small){
+		if(small.isEmpty())
+			return true;
+		if(big.isEmpty())
+			return false;		
+		return subtree(big.getRoot(), small.getRoot());
+	}
+	
+	private boolean subtree(Node bignode, Node smallnode){
+		
+	}
+	
+	private boolean match(Node n1, Node n2){
+		if(n1 == null && n2 == null)
+			return true;
+		if(n1 == null || n2 == null)
+			return false;
+		if(n1.getData() != n2.getData())
+			return false;
+		return match(n1.getLeft(), n2.getLeft()) || match(n1.getRight(), n2.getRight());
+	}
+}

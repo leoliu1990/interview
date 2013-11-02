@@ -1,0 +1,27 @@
+package edu.rice.pathsum;
+
+import edu.rice.tree.Node;
+
+public class PathSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void pathSum(Node node){
+		
+	}
+	
+	private int isSumTo(int stack[], int depth){
+		
+	}
+	
+	private void printRoute(int stack[], int start, int end){
+		System.out.print("[");
+		for(int i = start; i <= end; i++){
+			System.out.print(stack[i]+" ");
+		}
+		System.out.println();
+	}
+}

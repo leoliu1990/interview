@@ -1,0 +1,13 @@
+package edu.rice.pathsum;
+
+public class PathSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void pathSum(Node node){
+		
+	}
+}

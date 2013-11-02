@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;edu.rice.pathsum.PathSum.pathSum(...)&apos; to &apos;isSumTo&apos;&#x0A;- Original project: &apos;Tree&apos;&#x0A;- Original element: &apos;edu.rice.pathsum.PathSum.pathSum(...)&apos;&#x0A;- Renamed element: &apos;edu.rice.pathsum.PathSum.isSumTo(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;pathSum&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;edu.rice.pathsum{PathSum.java[PathSum~pathSum~\[I~QNode;~I~I" name="isSumTo" references="true" stamp="1383360569185" version="1.0"/>
+</session>
