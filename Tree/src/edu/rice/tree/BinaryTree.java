@@ -15,6 +15,10 @@ public class BinaryTree {
 		this.root = root;
 	}
 	
+	public boolean isEmpty(){
+		return root == null;
+	}
+	
 	public String toString(){
 		return serialize(root);		
 	}
