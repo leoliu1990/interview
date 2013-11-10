@@ -1,0 +1,13 @@
+package edu.rice.samebits;
+
+public class SameBits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void nextSmallest(int t){
+		
+	}
+}

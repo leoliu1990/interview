@@ -1,0 +1,13 @@
+package edu.rice.oddeven;
+
+public class OddEven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public int swapOddEven(int t){
+		return (t & 0xaaaaaaaa) >> 1 | (t & 0x55555555) << 1;
+	}
+}
