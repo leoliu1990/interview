@@ -43,4 +43,5 @@
 <fullyQualifiedTypeName name="edu.rice.tree.BinaryTree"/>
 <fullyQualifiedTypeName name="edu.rice.pathsum.PathSum"/>
 <fullyQualifiedTypeName name="edu.rice.insertbits.BitsInsertor"/>
+<fullyQualifiedTypeName name="edu.rice.oddeven.OddEven"/>
 </qualifiedTypeNameHistroy>

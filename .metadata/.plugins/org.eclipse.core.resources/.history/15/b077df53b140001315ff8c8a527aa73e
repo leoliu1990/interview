@@ -1,9 +1,0 @@
-package edu.rice.hanoi;
-
-import java.util.Stack;
-
-public class Hanoi {
-	public static void main(String s[]){
-		
-	}
-}
